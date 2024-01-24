@@ -17,11 +17,13 @@ body {
   
   .logo {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 0px;
   }
   
   nav {
     display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   nav ul {
@@ -29,11 +31,12 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   nav li {
-    margin-right: 20px;
+    margin-right: 10px;
   }
   
   nav a {
@@ -84,24 +87,18 @@ body {
   }
   body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 150px;
     padding: 20px;
   }
   
-  div {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 40px;
-    margin-right: 40px;
-   
   
-  }
+  
   
   hr {
     border: none;
     height: 1px;
     background-color: #333; 
-    margin: 80px;
+    margin: 200px;
   }
 
 .col {
